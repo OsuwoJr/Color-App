@@ -1,9 +1,7 @@
-import Square  from './Square'; 
-import Input from './Input';
-import { useState } from 'react'
+import Square  from './Square.jsx'; 
+import Input from './Input.jsx';
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   return (
    
       <div className='App'>
@@ -14,4 +12,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
